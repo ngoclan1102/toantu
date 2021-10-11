@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="text" id="C"><br>
+    <select name="" id="A">
+        <option value="VN">VietNam</option>
+        <option value="USD">USD</option>
+    </select>
+    <select name="" id="B">
+        <option value="VN">VietNam</option>
+        <option value="USD">USD</option>
+    </select>
+    <input onclick="Enter()" type="button" value="Convert">
+    <script>
+        function Enter() {
+            let C = document.getElementById(C).value;
+            let A = document.getElementById(A).value;
+            let B = document.getElementById(B).value;
+             document.write("C " +C)
+            document.write("A " +A)
+        }
+    </script>
+
+</form>
+</body>
+</html>
